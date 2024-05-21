@@ -1,3 +1,36 @@
 /* 
     General Styles
 */
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-left: 50px;
+    margin-right: 65px;
+}
+
+.scroll-container>div {
+    display: inline-block;
+    width: 33%;
+    /* Ajusto el ancho de cada tarjeta para mostrar cuatro tarjetas por fila y no se vea feo */
+}
+
+body {
+    background-color: black;
+}
+
+.star-wars {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: -1px -1px 0 #ff0, 2px -2px 0 #ff0, 5px 5px 0 #ff0;
+}
+
+.container{
+    margin-top: 100px;
+}
+.card{
+    text-align: center;
+    
+}
+.imagen{
+    width: 100%;
+}
